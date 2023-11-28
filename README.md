@@ -1,6 +1,6 @@
 # Introduction
 
-This webpage provides restaurant information regarding their lunch offerings for the day. The target audience is people at my office, Kungsgatan 2 in Stockholm.
+This webpage provides restaurant information regarding their lunch offerings for the day. The target audience is people at current working office, Kungsgatan 2 in Stockholm.
 
 Supported restaurants include:
 * Bastard Burgers - Folkungagatan 122
