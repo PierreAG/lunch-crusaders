@@ -1,0 +1,38 @@
+# Dependency directories
+Lambda/BastardBurgers/node_modules/
+Lambda/Gute/node_modules/
+Lambda/JohnScotts/node_modules/
+Lambda/Knut/node_modules/
+Lambda/KungCarl/node_modules/
+Server/node_modules/
+Webb/node_modules/
+Webb/build
+npm-debug.log
+yarn-error.log
+
+# Runtime data
+pids/
+logs/
+*.log
+*.pid
+
+# Environment variables
+.env
+
+# Output of local development tools
+/build/
+
+# Mac-specific
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Compiled binary addons
+*.node

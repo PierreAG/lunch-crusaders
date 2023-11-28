@@ -32,3 +32,8 @@ app.get('/johnscotts', async (req, res) => {
     res.status(500).json({ error: 'Failed to fetch lunch data from JohnScotts' });
   }
 });
+
+const PORT = 3333; // Define a port (use the environment port or default to 3000)
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
