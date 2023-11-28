@@ -1,0 +1,69 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Lunch API
+
+Globals:
+  Function:
+    Runtime: nodejs20.x
+    Timeout: 10
+
+Resources:
+  GuteFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://lunch-lambda/Gute.zip
+      Handler: index.handler
+      Events:
+        GetGute:
+          Type: Api
+          Properties:
+            Path: /gute
+            Method: get
+
+  JohnScottsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://lunch-lambda/JohnScotts.zip
+      Handler: index.handler
+      Events:
+        GetJohnScotts:
+          Type: Api
+          Properties:
+            Path: /johnscotts
+            Method: get
+
+  KnutFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://lunch-lambda/Knut.zip
+      Handler: index.handler
+      Events:
+        GetKnut:
+          Type: Api
+          Properties:
+            Path: /knut
+            Method: get
+
+  KungCarlFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://lunch-lambda/KungCarl.zip
+      Handler: index.handler
+      Events:
+        GetKungCarl:
+          Type: Api
+          Properties:
+            Path: /kung-carl
+            Method: get
+
+  BastardBurgersFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://lunch-lambda/BastardBurgers.zip
+      Handler: index.handler
+      Events:
+        GetBastardBurgers:
+          Type: Api
+          Properties:
+            Path: /bastard-burgers
+            Method: get

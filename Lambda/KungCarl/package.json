@@ -1,0 +1,12 @@
+{
+    "name": "kung-carl-lambda",
+    "version": "1.0.0",
+    "main": "index.mjs",
+    "dependencies": {
+        "pdfjs-dist": "^4.0.189"
+    },
+    "scripts": {
+        "build": "npm install",
+        "start": "node index.mjs"
+    }
+}

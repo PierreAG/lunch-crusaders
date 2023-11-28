@@ -1,0 +1,119 @@
+swagger: "2.0"
+
+info:
+  title: Lunch API
+  version: "1.0"
+  description: API for restaurant information
+
+paths:  
+  /gute:
+    get:
+      summary: Get Gute restaurant information
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              kott:
+                type: array
+                items:
+                  type: string
+              fisk:
+                type: string
+              vegetarisk:
+                type: string
+
+  /johnscotts:
+    get:
+      summary: Get John Scott's restaurant information
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              kott:
+                type: string
+              fisk:
+                type: string
+              vegetarisk:
+                type: string
+
+  /knut:
+    get:
+      summary: Get Knut restaurant information
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+              description:
+                type: string
+
+  /kung-carl:
+    get:
+      summary: Get Kung Carl restaurant information
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              mondayThursday:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  description:
+                    type: string
+                required:
+                  - name
+                  - description
+              thursday:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  description:
+                    type: string
+                required:
+                  - name
+                  - description
+              friday:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  description:
+                    type: string
+                required:
+                  - name
+                  - description
+              weekDishes:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  description:
+                    type: string
+                required:
+                  - name
+                  - description
+
+  /bastard-burgers:
+    get:
+      summary: Get Bastard Burgers restaurant information
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+              description:
+                type: string
