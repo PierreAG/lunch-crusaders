@@ -9,12 +9,13 @@ Supported restaurants include:
 * Knut - Regeringsgatan 77
 * Kung Carl - Birger Jarlsgatan 21
 
-
-This site is not monetized and is solely used to consolidate information in one place.
-
 ![Webpage](page-screenshot.png)
 
 [https://lunch-crusader.s3.eu-north-1.amazonaws.com/index.html](https://lunch-crusader.s3.eu-north-1.amazonaws.com/index.html)
+
+NOTE: 
+* This website serves as a centralized hub for information, intended for informational purposes only. It is not monetized and exists solely to consolidate information in one accessible location. 
+* The project is designed with a limited lifespan in mind, estimated to be around 2 years until approximately 2025.
 
 # AWS deployment
 
